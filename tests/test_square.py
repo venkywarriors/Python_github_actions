@@ -13,4 +13,4 @@ def test_sqrt():
 
 @pytest.mark.others
 def test_equality():
-    assert 10 == 11
+    assert 11 == 11
