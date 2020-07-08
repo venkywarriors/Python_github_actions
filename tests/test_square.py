@@ -10,6 +10,11 @@ import math
 def test_sqrt():
     num = 25
     assert math.sqrt(num) == 5
+    
+@pytest.mark.others
+def test_less():
+    num = 100
+    assert num < 200    
 
 @pytest.mark.others
 def test_equality():
