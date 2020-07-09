@@ -3,5 +3,6 @@ pytest
 gunicorn
 selenium
 requests
+webdriver-manager
 webdrivermanager
 pytest-ordering
