@@ -4,3 +4,4 @@ gunicorn
 selenium
 requests
 webdrivermanager
+pytest-ordering
