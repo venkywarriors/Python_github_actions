@@ -11,4 +11,4 @@ jobs:
       - name: Show ASCII greeting                             
         uses: venkywarriors/ascii-art-Github-action@master   
         with:                               
-          text: 'Doijode!'
+          text: 'Doijode!!'
