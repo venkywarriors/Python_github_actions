@@ -9,6 +9,6 @@ jobs:
         uses: actions/checkout@v2  
                                  
       - name: Show ASCII greeting                             
-        uses: venkywarriors/ascii-art-action@master   
+        uses: venkywarriors/ascii-art-Github-action@master   
         with:                               
           text: 'Doijode!'
