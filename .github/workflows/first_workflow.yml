@@ -7,8 +7,11 @@ jobs:
     steps: 
       - name: Check-out the repo under $GITHUB_WORKSPACE                               
         uses: actions/checkout@v2  
-                                 
+      
+      - name: cowsay   
+        uses: venkywarriors/ascii-art-Github-action@master
+       
       - name: Show ASCII greeting                             
-        uses: venkywarriors/ascii-art-Github-action@master   
+        uses: mscoutermarsh/ascii-art-action@master     
         with:                               
-          text: 'Doijode!'
+          text: 'Venkateshwara Rao Doijode'
